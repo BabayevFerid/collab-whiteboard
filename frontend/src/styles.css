@@ -1,0 +1,11 @@
+body, html, #root { height: 100%; margin: 0; font-family: Inter, sans-serif }
+.app-root { display: flex; flex-direction: column; height: 100% }
+.topbar { height: 56px; background: #0f172a; color: white; display:flex; align-items:center; padding:0 12px }
+.topbar .brand { font-weight:700; margin-right:20px }
+.topbar input { margin-left:8px }
+.whiteboard-root { display:flex; flex-direction:column }
+.toolbar { display:flex; gap:8px; padding:8px; background:#fafafa; align-items:center }
+.toolbar button.active { background: #111827; color: white }
+.stage-wrap { position:relative; flex:1 }
+.presence-overlay { position:absolute; left:8px; top:8px }
+.cursor-dot { position:absolute; transform:translate(-50%,-50%); background:rgba(0,0,0,0.7); color:white; padding:4px 6px; border-radius:10px; font-size:12px }
